@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #0F0F0F;
+    flex-direction: column;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+}
+
+*::selection {
+    background-color: #ff0138a2;
+}
+
+body {
+    display: flex;
+    background-color: #EDEDED;
+}
+
+header {
+    display: flex;
+    background-color: #FF0137;
+}
+
+header>.background {
+    width: 100%;
+    position: absolute;
+}
+
+header>.logo {
+    width: 55%;
+    align-self: center;
+    margin-top: 10%;
+}
+
+main {
+    display: flex;
+}
+
+main>.start {
+    display: flex;
+    background-color: #FF0137;
+}
+
+main>.start>.title {
+    width: 80%;
+    margin-top: 18%;
+    font-size: 7.8vw;
+    color: #F1C320;
+    align-self: center;
+    text-align: center;
+}
+
+main>.start>.description {
+    width: 80%;
+    font-size: 5vw;
+    margin-top: 15%;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 15%;
+    text-align: center;
+    align-self: center;
+}
+
+main>.start>.button {
+    width: 75%;
+    z-index: 1;
+    padding: 4%;
+    border: none;
+    display: flex;
+    font-size: 5vw;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    align-self: center;
+    border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+    transition-duration: 0.1s;
+    background-color: #F1C320;
+    transition-timing-function: linear;
+}
+
+main>.start>.button:hover {
+    opacity: 0.8;
+}
+
+main>.start>.bg-button {
+    z-index: 0;
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    margin-top: 98%;
+    position: absolute;
+    background-color: #EDEDED;
+}
+
+main>.phrases {
+    display: flex;
+    margin-top: 5%;
+    background-color: #EDEDED;
+}

@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: /404.html
+Allow: /
+
+Sitemap: https://alvorada-marketing.vercel.app/sitemap.xml
