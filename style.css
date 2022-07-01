@@ -91,9 +91,9 @@ main>.start>.button:hover {
 main>.start>.bg-button {
     z-index: 0;
     width: 100%;
-    padding: 5%;
+    padding: 10%;
     display: flex;
-    margin-top: 96%;
+    margin-top: 96.5%;
     position: absolute;
     background-color: #EDEDED;
 }
