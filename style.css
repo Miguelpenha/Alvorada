@@ -94,9 +94,9 @@ main>.start>.container-button>.button:hover {
 }
 
 main>.start>.container-button>.bg-button {
-    bottom: 0%;
     width: 100%;
     padding: 4%;
+    bottom: -10%;
     display: flex;
     position: absolute;
     background-color: #EDEDED;
@@ -155,8 +155,9 @@ main>.objectives>.background-waves {
 }
 
 main>.objectives>.title {
-    margin-top: 25%;
+    margin-top: 20%;
     font-size: 7.8vw;
+    margin-bottom: 10%;
     text-align: center;
     font-weight: normal;
 }
@@ -168,4 +169,31 @@ main>.objectives>.title>span {
 
 main>.objectives>.title>.highlighted {
     color: #F1C320;
+}
+
+main>.objectives>.objective {
+    width: 85%;
+    padding: 1%;
+    display: flex;
+    min-height: 70vw;
+    margin-bottom: 8%;
+    align-self: center;
+    border-radius: 35px;
+    background-color: #ffffff;
+}
+
+main>.objectives>.objective>.icon {
+    width: 30%;
+    margin-top: 3%;
+    align-self: center;
+}
+
+main>.objectives>.objective>.description {
+    width: 97%;
+    margin-top: 5%;
+    font-size: 5vw;
+    margin-bottom: 6%;
+    align-self: center;
+    text-align: center;
+    font-weight: medium;
 }
