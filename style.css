@@ -109,7 +109,7 @@ main>.phrases>.phrase {
     display: flex;
     margin-bottom: 12%;
     align-self: center;
-    border-radius: 35px;
+    border-radius: 25px;
     background-color: #ffffff;
 }
 
