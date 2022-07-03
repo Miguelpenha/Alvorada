@@ -197,3 +197,169 @@ main>.objectives>.objective>.description {
     text-align: center;
     font-weight: medium;
 }
+
+main>.team {
+    display: flex;
+    margin-top: 25%;
+    margin-bottom: 15%;
+}
+
+main>.team>.container-card {
+    width: 85%;
+    display: flex;
+    margin-bottom: 10%;
+    align-self: center;
+    position: relative;
+}
+
+main>.team>.container-card>.image-peoples {
+    width: 85%;
+    align-self: center;
+    position: absolute;
+}
+
+main>.team>.container-card>.card {
+    padding: 2%;
+    margin-top: 52%;
+    padding-top: 44%;
+    padding-bottom: 8%;
+    border-radius: 35px;
+    background-color: #ffffff;
+}
+
+main>.team>.container-card>.card>.text-main {
+    font-size: 5vw;
+    font-weight: 500;
+}
+
+main>.team>.container-card>.card>.text-main>.employees {
+    margin-top: 8%;
+    margin-left: 10%;
+}
+
+main>.team>.container-card>.card>.text-main>.employees>li {
+    color: #FF0137;
+}
+
+main>.team>.container-card>.card>.description {
+    font-size: 5vw;
+    margin-top: 8%;
+    font-weight: 500;
+    text-align: center;
+}
+
+main>.team>.button {
+    width: 84%;
+    padding: 5%;
+    display: flex;
+    font-size: 5vw;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    border-radius: 20px;
+    text-decoration: none;
+    transition-duration: 0.1s;
+    background-color: #FF0137;
+    transition-timing-function: linear;
+}
+
+main>.team>.button:hover {
+    background-color: #cf0631;
+}
+
+main>.member {
+    width: 84%;
+    display: flex;
+    margin-bottom: 14%;
+    align-self: center;
+}
+
+main>.member>.title>span {
+    font-size: 7.8vw;
+    font-family: 'Fredoka', sans-serif;
+}
+
+main>.member>.title>span:nth-of-type(1) {
+    color: #FF0137;
+    font-weight: 500;
+}
+
+main>.member>.title>.highlighted {
+    color: #F1C320;
+    font-weight: normal;
+}
+
+main>.member>.description {
+    font-size: 5vw;
+    margin-top: 8%;
+    font-weight: 500;
+}
+
+main>.form-contact {
+    padding-top: 12%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #FF0137;
+}
+
+main>.form-contact>.title {
+    color: #ffffff;
+    font-size: 7.8vw;
+    font-weight: bold;
+    text-align: center;
+}
+
+main>.form-contact>#form {
+    display: flex;
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+main>.form-contact>#form>.field {
+    width: 95%;
+    display: flex;
+    margin-bottom: 8%;
+    align-self: center;
+}
+
+main>.form-contact>#form>.field>label {
+    color: #ffffff;
+    font-size: 4.4vw;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+
+main>.form-contact>#form>.field>input {
+    padding: 5%;
+    border: none;
+    color: #FF0137;
+    color: #ffffff;
+    font-size: 4.4vw;
+    font-weight: bold;
+}
+
+main>.form-contact>#form>.field>input:focus {
+    outline: none;
+}
+
+main>.form-contact>#form>.button {
+    border: none;
+    display: flex;
+    font-size: 5vw;
+    padding: 4% 5%;
+    margin-top: 5%;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
+    align-self: center;
+    border-radius: 20px;
+    transition-duration: 0.1s;
+    background-color: #F1C320;
+    transition-timing-function: linear;
+}
+
+main>.form-contact>#form>.button:hover {
+    background-color: #c9a317;
+}
