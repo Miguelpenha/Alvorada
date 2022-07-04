@@ -296,41 +296,41 @@ main>.member>.description {
     font-weight: 500;
 }
 
-main>.form-contact {
+main>#form-contact {
     padding-top: 12%;
     padding-left: 10%;
     padding-right: 10%;
     background-color: #FF0137;
 }
 
-main>.form-contact>.title {
+main>#form-contact>.title {
     color: #ffffff;
     font-size: 7.8vw;
     font-weight: bold;
     text-align: center;
 }
 
-main>.form-contact>#form {
+main>#form-contact>#form {
     display: flex;
     margin-top: 8%;
     margin-bottom: 8%;
 }
 
-main>.form-contact>#form>.field {
+main>#form-contact>#form>.field {
     width: 95%;
     display: flex;
     margin-bottom: 8%;
     align-self: center;
 }
 
-main>.form-contact>#form>.field>label {
+main>#form-contact>#form>.field>label {
     color: #ffffff;
     font-size: 4.4vw;
     font-weight: bold;
     margin-bottom: 3%;
 }
 
-main>.form-contact>#form>.field>input {
+main>#form-contact>#form>.field>input {
     padding: 5%;
     border: none;
     color: #FF0137;
@@ -338,11 +338,11 @@ main>.form-contact>#form>.field>input {
     font-weight: bold;
 }
 
-main>.form-contact>#form>.field>input:focus {
+main>#form-contact>#form>.field>input:focus {
     outline: none;
 }
 
-main>.form-contact>#form>.button {
+main>#form-contact>#form>.button {
     border: none;
     display: flex;
     font-size: 5vw;
@@ -359,6 +359,6 @@ main>.form-contact>#form>.button {
     transition-timing-function: linear;
 }
 
-main>.form-contact>#form>.button:hover {
+main>#form-contact>#form>.button:hover {
     background-color: #c9a317;
 }
