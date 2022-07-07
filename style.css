@@ -428,10 +428,36 @@ main>#form-contact>#form>.button:hover {
 }
 
 main>.portfolio {
+    display: grid;
     padding-top: 5%;
+    padding-bottom: 4%;
     background-color: #FF0137;
+    grid-template-columns: repeat(3, 1fr);
 }
 
-main>.portfolio>.arts {
-    width: 100%;
+main>.portfolio>.column-left {
+    display: flex;
+    padding-top: 10%;
+}
+
+main>.portfolio>.column-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+main>.portfolio>.column-right {
+    display: flex;
+    padding-top: 10%;
+    align-items: flex-end;
+}
+
+main>.portfolio>.column-left>img, main>.portfolio>.column-right>img {
+    width: 82%;
+    margin-top: 10%;
+}
+
+main>.portfolio>.column-center>img {
+    width: 110%;
+    margin-top: 6%;
 }
