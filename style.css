@@ -46,7 +46,7 @@ main>.start>.title {
     width: 85%;
     margin-top: 18%;
     font-size: 7.8vw;
-    color: #F1C320;
+    color: #ffffff;
     font-weight: bold;
     align-self: center;
     text-align: center;
@@ -57,7 +57,6 @@ main>.start>.description {
     font-size: 5vw;
     margin-top: 15%;
     font-weight: 500;
-    font-weight: 300;
     color: #ffffff;
     margin-bottom: 15%;
     text-align: center;
@@ -102,46 +101,94 @@ main>.start>.container-button>.bg-button {
     background-color: #EDEDED;
 }
 
-main>.phrases {
+main>.services {
+    width: 80%;
     display: flex;
     margin-top: 12%;
+    margin-bottom: 15%;
+    align-self: center;
+    align-items: center;
     background-color: #EDEDED;
 }
 
-main>.phrases>.phrase {
-    width: 85%;
+main>.services>.subtitle {
+    color: #FF0137;
+    font-weight: bold;
+    font-size: 3.5vw;
+}
+
+main>.services>.title {
+    margin-top: 5%;
+    font-size: 7.4vw;
+    font-weight: bold;
+    margin-bottom: 10%;
+    text-align: center;
+}
+
+main>.services>.title>span {
+    color: #212529;
+}
+
+main>.services>.title>.highlighted {
+    color: #FF0137;
+    font-weight: 800;
+}
+
+main>.services>.service {
     display: flex;
-    margin-bottom: 12%;
-    align-self: center;
-    border-radius: 6vw;
+    padding-top: 8%;
+    margin-bottom: 10%;
+    align-items: center;
     background-color: #ffffff;
 }
 
-main>.phrases>.phrase>.title {
-    font-size: 7.8vw;
-    color: #FF0137;
-    align-self: center;
+main>.services>.service>.icon {
+    width: 30%;
+}
+
+main>.services>.service>.title {
+    margin-top: 5%;
+    color: #212529;
+    font-size: 5.8vw;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+main>.services>.service>.description {
+    width: 82%;
+    font-size: 4vw;
+    color: #767676;
+    line-height: 26px;
     text-align: center;
     font-weight: normal;
-    margin: 8% 0.2% 0% 0.2%;
-    font-family: 'Fredoka', sans-serif;
 }
 
-main>.phrases>.phrase>.description {
-    font-size: 4.9vw;
-    font-weight: 500;
-    text-align: center;
-    margin: 6% 3% 0% 3%;
-}
-
-main>.phrases>.phrase>.detail {
-    width: 58%;
+main>.services>.service>.detail {
+    width: 100%;
     padding: 0.8%;
-    margin-top: 10%;
-    margin-bottom: 8%;
-    align-self: center;
+    margin-top: 8%;
+    background-color: #FF0137;
+}
+
+main>.services>.button {
+    width: 100%;
+    padding: 5%;
+    margin-top: 5%;
+    font-size: 5vw;
+    color: #ffffff;
+    font-weight: bold;
+    text-align: center;
     border-radius: 20px;
-    background-color: #F1C320;
+    text-decoration: none;
+    transition-duration: 0.1s;
+    background-color: #FF0137;
+    transition-timing-function: linear;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
+}
+
+main>.services>.button:hover {
+    background-color: #cf0631;
 }
 
 main>.objectives {
@@ -154,54 +201,98 @@ main>.objectives>.background-waves {
     position: absolute;
 }
 
-main>.objectives>.title {
-    margin-top: 20%;
-    font-size: 7.8vw;
+main>.objectives>.container {
+    width: 82%;
+    display: flex;
+    align-self: center;
+    align-items: center;
+}
+
+main>.objectives>.container>.title {
+    width: 100%;
+    margin-top: 35%;
+    color: #ffffff;
+    font-size: 6.4vw;
+    font-weight: bold;
     margin-bottom: 10%;
-    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+main>.objectives>.container>.objective {
+    padding: 1%;
+    display: flex;
+    margin-bottom: 5%;
+    flex-direction: row;
+}
+
+main>.objectives>.container>.objective>.icon {
+    width: 6%;
+    margin-right: 3%;
+    align-self: flex-start;
+}
+
+main>.objectives>.container>.objective>.description, main>.objectives>.container>.objective>.description>* {
+    color: #ffffff;
+    font-size: 3.7vw;
     font-weight: normal;
 }
 
-main>.objectives>.title>span {
-    color: #ffffff;
-    font-family: 'Fredoka', sans-serif;
+main>.objectives>.container>.objective>.description>.highlighted {
+    font-weight: 800;
 }
 
-main>.objectives>.title>.highlighted {
-    color: #F1C320;
-}
-
-main>.objectives>.objective {
-    width: 85%;
-    padding: 1%;
+main>.announce {
     display: flex;
-    min-height: 70vw;
-    margin-bottom: 8%;
-    align-self: center;
-    border-radius: 35px;
+    margin-top: 8%;
+    padding: 5% 0%;
     background-color: #ffffff;
 }
 
-main>.objectives>.objective>.icon {
-    width: 30%;
-    margin-top: 3%;
+main>.announce>.container {
+    width: 80%;
+    display: flex;
     align-self: center;
 }
 
-main>.objectives>.objective>.description {
-    width: 97%;
-    margin-top: 5%;
+main>.announce>.container>.title {
     font-size: 5vw;
-    margin-bottom: 6%;
-    align-self: center;
+    font-weight: 500;
+    color: #0F0F0F;
+    margin-bottom: 5%;
     text-align: center;
-    font-weight: medium;
+}
+
+main>.announce>.container>.announcers {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+main>.announce>.container>.announcers>img {
+    width: 80%;
+    align-self: center;
+    justify-self: center;
 }
 
 main>.team {
     display: flex;
-    margin-top: 25%;
+    margin-top: 30%;
+    margin-bottom: 20%;
+}
+
+main>.team>.title {
+    width: 90%;
+    align-self: center;
     margin-bottom: 15%;
+}
+
+main>.team>.title, main>.team>.title>* {
+    color: #212529;
+    font-size: 7.4vw;
+    font-weight: bold;
+}
+
+main>.team>.title>.highlighted {
+    color: #FF0137;
 }
 
 main>.team>.container-card {
@@ -262,38 +353,11 @@ main>.team>.button {
     transition-duration: 0.1s;
     background-color: #FF0137;
     transition-timing-function: linear;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 40%);
 }
 
 main>.team>.button:hover {
     background-color: #cf0631;
-}
-
-main>.member {
-    width: 84%;
-    display: flex;
-    margin-bottom: 14%;
-    align-self: center;
-}
-
-main>.member>.title>span {
-    font-size: 7.8vw;
-    font-family: 'Fredoka', sans-serif;
-}
-
-main>.member>.title>span:nth-of-type(1) {
-    color: #FF0137;
-    font-weight: 500;
-}
-
-main>.member>.title>.highlighted {
-    color: #F1C320;
-    font-weight: normal;
-}
-
-main>.member>.description {
-    font-size: 5vw;
-    margin-top: 8%;
-    font-weight: 500;
 }
 
 main>#form-contact {
@@ -361,4 +425,13 @@ main>#form-contact>#form>.button {
 
 main>#form-contact>#form>.button:hover {
     background-color: #c9a317;
+}
+
+main>.portfolio {
+    padding-top: 5%;
+    background-color: #FF0137;
+}
+
+main>.portfolio>.arts {
+    width: 100%;
 }
