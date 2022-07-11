@@ -152,22 +152,26 @@
                     <br/>
                     seu negócio?
                 </h2>
-                <form id="form">
+                <form id="form" action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="redirectTo" value="https://alvoradacomunicacao.vercel.app/#success">
+                    <input type="text" name="honeypot" style="display: none;">
+                    <input type="hidden" name="$site" id="site" value="Alvorada comunicação">
+                    <input type="hidden" name="accessKey" value="e81d3117-4037-4b72-8e7c-1ab558597d85">
                     <div class="field">
                         <label for="name">Nome</label>
-                        <input type="text" name="name" id="name">
+                        <input type="text" name="$name" id="name" required>
                     </div>
                     <div class="field">
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="email">
+                        <input type="email" name="$email" id="email" required>
                     </div>
                     <div class="field">
                         <label for="tel">Telefone</label>
-                        <input type="text" name="tel" id="tel">
+                        <input type="text" name="$tel" id="tel" required>
                     </div>
                     <div class="field">
                         <label for="company">Empresa</label>
-                        <input type="text" name="company" id="company">
+                        <input type="text" name="company" id="company" required>
                     </div>
                     <button class="button" type="submit">QUERO TRANSFORMAR O MEU NEGÓCIO</button>
                 </form>
